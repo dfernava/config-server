@@ -13,8 +13,3 @@ spring:
         uri: http://localhost:8080
         predicates:
         - Path=/micro-crud/**
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*'
