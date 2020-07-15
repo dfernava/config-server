@@ -10,6 +10,6 @@ spring:
     gateway:
       routes:
       - id: micro-crud
-        uri: localhost:8080
+        uri: http://localhost:8080
         predicates:
         - Path=/micro-crud/**
