@@ -5,4 +5,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/dfernava/config-server.git
+          uri: https://github.com/dfernava/config-local
